@@ -48,6 +48,7 @@ namespace _13.ALL
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.browsePictureDialog = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -221,6 +222,11 @@ namespace _13.ALL
             this.toolStripMenuItem2.Size = new System.Drawing.Size(198, 22);
             this.toolStripMenuItem2.Text = "Удалить картинку";
             // 
+            // browsePictureDialog
+            // 
+            this.browsePictureDialog.FileName = "openFileDialog1";
+            this.browsePictureDialog.Filter = "images | *.jpg, *.png, *.bnp";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -264,5 +270,6 @@ namespace _13.ALL
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.OpenFileDialog browsePictureDialog;
     }
 }
